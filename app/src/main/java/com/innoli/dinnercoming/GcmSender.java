@@ -36,8 +36,8 @@ public class GcmSender {
             JSONObject jData = new JSONObject();
 
             jData.put("message", "Dinner is arrived! Come quickly!");
-            jData.put("to", "/topics/global");
 
+            jGcmData.put("to", "/topics/global");
             jGcmData.put("data", jData);
 
             URL url = new URL("https://android.googleapis.com/gcm/send");

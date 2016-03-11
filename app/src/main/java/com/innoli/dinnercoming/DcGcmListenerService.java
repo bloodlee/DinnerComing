@@ -40,7 +40,7 @@ public class DcGcmListenerService extends GcmListenerService {
         Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
                 .setSmallIcon(R.drawable.ic_stat_notification_icon)
-                .setContentTitle("DinnerComing")
+                .setContentTitle("Dinner is Coming")
                 .setContentText("Dinner is just arrived! Come quickly!")
                 .setAutoCancel(true)
                 .setSound(defaultSoundUri)
